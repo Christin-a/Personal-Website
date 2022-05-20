@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Christina Armand</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div><img class="main-logo" src="images/logos/Main-Logo_white.svg" alt="Christina Armand Logo"></div>
+        <div class="links">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Resume</a>
+            <a href="">Projects</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+        </div>
+        <div>
+            <img class="iconD" src="icons/Nightshift.svg" alt="Dark Mode indicator">
+        </div>
+
+    </div>
+
+    <div class="hero">
+        <h1>Lorem ipsum dolor sit amet, <span>consectetur</span> adipiscing elit, sed do eiusmod <span>tempor</span>
+            incididunt ut labore et <span>dolore</span> magna aliqua.</h1>
+        <button class="btn-primary">Get to Know Me</button>
+        <button href="#contact-form" class="btn-primary-outline">Let's Work Together!</button>
+    </div>
+    <div class="background-trans">
+        <div class="container">
+            <div class="featured">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <hr>
+                </div>
+                <div class="projects-container">
+                    <div class="featured-proj 1">
+
+                        <div class="img-container">
+                            <img src="images/Project-1.jpeg" alt="Project Title">
+                        </div>
+                        <div class="project-description">
+                            <h3>Project Title Medium</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                ea commodo consequat. (don't forget to add char limit).....</p>
+                            <small class="tags">Topic 1, Topic 2</small>
+                            <br>
+                        </div>
+                        <button class="btn-primary">See Project Details</button>
+                    </div>
+
+                    <div class="featured-proj 2">
+
+                        <div class="img-container">
+                            <img src="images/Project-2.jpeg" alt="Project Title">
+                        </div>
+                        <div class="project-description">
+                            <h3>Project Title Medium Long (add char limit)</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                ea commodo consequat. (don't forget to add char limit)....</p>
+                            <small class="tags">Topic 1, Topic 2</small>
+                        </div>
+
+                        <button class="btn-secondary">See Project Details</button>
+                    </div>
+                </div>
+                <button class="btn-tertiary">See all Projects</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact-form">
+        <div class="contact-form">
+            <div class="section-header">
+                <h2>Contact Me </h2>
+                <hr>
+            </div>
+            <div class="form-control">
+                <label for="fName">Enter your first name</label>
+                <input type="text" id="fName" placeholder="First Name" required>
+            </div>
+            <div class="form-control">
+                <label for="lName">Enter your last name</label>
+                <input type="text" id="lName" placeholder="Last Name" required>
+            </div>
+            <div class="form-control">
+                <label for="email">Enter your email</label>
+                <input type="text" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-control">
+                <label for="email">How can I help?</label>
+                <textarea rows="10" placeholder="Type your message here" id="message" name="message"
+                    required></textarea>
+            </div>
+            <button class="btn-primary">Submit</button>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="footer-icons">
+            <img src="icons/Footer Icons.png" alt="">
+        </div>
+        <p>
+            Ⓒ Copyright Christina Armand <span id="year"></span>
+        </p>
+    </footer>
+</body>
+
+</html>
